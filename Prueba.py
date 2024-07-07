@@ -1,3 +1,4 @@
+#Joshua Cardenas
 from moviepy.video.io.VideoFileClip import VideoFileClip
 import os
 
@@ -27,8 +28,8 @@ def split_video(input_path, output_dir, chunk_duration):
     video.close()
 
 # Ejemplo de uso
-input_video_path = r"C:\Users\Andres Cardenas\Downloads\IA_ ¿oportunidad o riesgo para el empleo_\IA_oportunidad.mp4"
-output_directory = r"C:\Users\Andres Cardenas\Downloads\IA_ ¿oportunidad o riesgo para el empleo_\partes"
+input_video_path = r"xxxxxx/xxx"
+output_directory = r"xxxxx/xxx"
 duracion_por_parte = 119  # Duración en segundos de cada parte
 
 split_video(input_video_path, output_directory, duracion_por_parte)
